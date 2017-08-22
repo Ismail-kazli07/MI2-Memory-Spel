@@ -106,24 +106,5 @@ function turnOffAllCards(){
   for(var i = 0; i < FrontCards.length; i++){
     FrontCards[i].classList.remove("image");
     ClickedKaart=[];
-   
-
-
   }
-
-}
-   function stop_the_game() {
-        restart_div.slideDown();
-        restart_btn.focus();
-    }
- var restart_div = $('#restart_div');
- var restart_btn = $('#restart');
-
-var x = document.getElementById("myAudio");
-
-function enableMute() { 
-    x.muted = true;
-} 
-function disableMute() { 
-    x.muted = false;
 }
