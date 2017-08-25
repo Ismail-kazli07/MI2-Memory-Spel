@@ -1,0 +1,94 @@
+body{
+  background-image: url("images/Background.jpg");no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  font-family: 'Bevan', cursive;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-shadow: -2px 3px #000;
+
+}
+
+#Board{
+  background-color: transparent;
+  width: 720px;
+  height: 530px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin: 0px auto;
+}
+
+
+.card{
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+  float:right;
+  background-image: url("images/1.png");
+  background-size: 160px 160px;
+  border-radius: 10px;
+  -moz-box-shadow: -3px 3px 10px #000;
+  -webkit-box-shadow: -3px 3px 10px #000;
+   box-shadow: -3px 3px 10px #000;
+}
+
+
+.card img{
+  display: none;
+}
+
+.card.image img {
+  display: block;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+.image.match {
+  width: 160px;
+  height: 160px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 791px) {
+    body {
+        text-align: center;
+        background-color: lawngreen;
+    }
+    button {
+        padding: 15px 25px;
+        border: none;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 18px;
+        outline: none;
+        color: #fff;
+        background-color: #1491c1;
+        box-shadow: 0 6px #999;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0e5295;
+    }
+    button:active {
+        background-color: #0e5295;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
